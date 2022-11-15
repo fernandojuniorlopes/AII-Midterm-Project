@@ -1,7 +1,7 @@
 %***EXERCISE 1***
 
 % % Directory of the dataset
-directory = "**Insert your directory**";
+directory = "insert your directory";
 
 % % A)
 % % function that returns a image stack (n, m, k)
