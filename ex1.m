@@ -27,6 +27,21 @@ n = size(s3dImages(:,:,1));
 % % Minimum value of the stack
 % min_value = min(s3dImages(:));
 
+% % Loop the iterates through frames
+% for i=1:nframes
+
+    % % Show current image being iterated
+    % imshow(s3dImages(:,:,i), []);
+
+    % % Adding colorbar display the range of minimum and maximum values of the stack
+    % h = colorbar;
+    % caxis([min_value max_value]);
+    % hold on
+
+    % % pausing for .2 seconds
+    % pause(.2);
+% end
+
 % % E) NOT WORKING YET
 % img1 = s3dImages(:,:,1);
 % img2 = s3dImages(:,:,2);
